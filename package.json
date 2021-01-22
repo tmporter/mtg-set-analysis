@@ -1,5 +1,6 @@
 {
   "name": "reason-reward",
+  "homepage": "https://tmporter.github.io/mtg-set-analysis/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
