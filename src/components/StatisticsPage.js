@@ -7,7 +7,7 @@ import SetPicker from "./SetPicker";
 
 const Layout = styled.div`
   display: grid;
-  grid-template: "filters content" / 200px auto;
+  grid-template: "filters content" / 300px auto;
 `;
 
 const StatisticsPage = () => {
@@ -22,9 +22,7 @@ const StatisticsPage = () => {
       : c
   );
 
-  const handleSetChange = async (e) => {
-    const newSet = e.currentTarget.value;
-
+  const handleSetChange = async (newSet) => {
     if (!newSet) {
       setCards([]);
       return;
