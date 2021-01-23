@@ -1,10 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styled from "styled-components";
 import Select from "react-select";
-
-// const Select = styled.select`
-//   width: 100%;
-// `;
 
 const SetPicker = ({ set, onChange }) => {
   const [sets, setSets] = useState([]);
